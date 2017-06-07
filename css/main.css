@@ -29,7 +29,11 @@ a.logoLove{
 	justify-content: flex-end;
 }
 .menuLista a{
-	padding: 10px;
+	font-family: 'Prompt', sans-serif;
+	padding: 5px;
+	margin-top: 5px;
+	font-size: 13px;
+
 }
 /**********************SOFT BUNNY*******************/
 #bunnyHeader{
@@ -150,7 +154,7 @@ footer p{
 	display: none;
 }
 /*****************************RESPONSIVE***************************/
-@media (min-width: 200px) and (max-width: 650px){
+@media (min-width: 200px) and (max-width: 800px){
 	.flex-container{
 		display: flex;
 		flex-direction: column;
@@ -166,13 +170,9 @@ footer p{
 		width: 100%;
 		margin: auto;
 		text-align: right;
-		
 	}
 	.menu a{
-	
 		text-decoration: none;
-		
-		
 		flex-grow: 1;
 		cursor:e-resize; 
 	}	
