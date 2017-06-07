@@ -33,7 +33,9 @@ a.logoLove{
 	padding: 5px;
 	margin-top: 5px;
 	font-size: 13px;
-
+}
+.menuLista a:hover{
+	background-color: #26223d;
 }
 /**********************SOFT BUNNY*******************/
 #bunnyHeader{
